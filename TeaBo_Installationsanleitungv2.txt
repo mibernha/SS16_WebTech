@@ -1,0 +1,38 @@
+/************************************************************************/
+/*		Web-Technologien Sommersemester 2016		  	*/
+/*		Team: 	TeaBo					 	*/
+/*			Michael Bernhardt, 291599		 	*/
+/*			Viktoria Maier, 292140			 	*/
+/*		Kontakt:					 	*/
+/*			michael.bernhardt@htwg-konstanz.de	  	*/
+/*			viktoria.maier@htwg-konstanz.de		  	*/
+/*		Betreuer:					  	*/
+/*			Markus Eiglsperger			  	*/
+/*			meiglsperger@htwg-konstanz.de		  	*/
+/************************************************************************/
+
+##########################################################################
+Installationsanleitung (https://laravel.com/docs/5.2#installing-laravel)
+##########################################################################
+
+1. Installation Composer
+Composter herunterladen (https://getcomposer.org/download/) und installieren.
+
+2. Laravel über Composer installieren
+Terminal/Konsole öffnen, folgenden Befehl ausführen:
+> composer global require "laravel/installer"
+
+3. Installation XAMPP
+Herunterladen (https://www.apachefriends.org/de/download.html) und installieren.
+
+4. Projekt in htdocs entpacken
+
+5. Apache-Server und MySQL Datenbank in XAMPP starten
+
+6. Datenbanktabellen migrieren
+Neues Konsolenfenster/Terminal öffnen, zum Projekt navigieren, folgenden Befehl ausführen:
+> php artisan migrate
+Nun sollte die Meldung kommen dass zwei Dateien erfolgreich migriert wurden. 
+(ggf. muss nun die Datenbankverbindung angepasst werden, hierzu die .env Datei im Projektordner bearbeiten)
+
+7. Im Browser kann die Seite über "https://localhost/konboat/public" geöffnet werden
