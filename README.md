@@ -1,2 +1,3 @@
 # SS16_WebTech
-Web-
+Web-Tech Projekt mit Viktoria Maier 
+KonBoat - Buchung von Booten 
